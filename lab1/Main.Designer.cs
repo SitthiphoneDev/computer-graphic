@@ -52,7 +52,7 @@
             // 
             // lab1
             // 
-            lab1.BackColor = SystemColors.HotTrack;
+            lab1.BackColor = SystemColors.Highlight;
             lab1.Location = new Point(43, 28);
             lab1.Name = "lab1";
             lab1.Size = new Size(143, 51);
@@ -135,12 +135,14 @@
             // 
             // lab6
             // 
+            lab6.BackColor = SystemColors.Highlight;
             lab6.Location = new Point(43, 114);
             lab6.Name = "lab6";
             lab6.Size = new Size(143, 51);
             lab6.TabIndex = 8;
             lab6.Text = "lab6";
-            lab6.UseVisualStyleBackColor = true;
+            lab6.UseVisualStyleBackColor = false;
+            lab6.Click += lab6_Click;
             // 
             // Homework5
             // 
@@ -182,12 +184,14 @@
             // 
             // Homework2
             // 
+            Homework2.BackColor = SystemColors.ActiveCaption;
             Homework2.Location = new Point(218, 342);
             Homework2.Name = "Homework2";
             Homework2.Size = new Size(143, 51);
             Homework2.TabIndex = 16;
             Homework2.Text = "Homework 2";
-            Homework2.UseVisualStyleBackColor = true;
+            Homework2.UseVisualStyleBackColor = false;
+            Homework2.Click += Homework2_Click;
             // 
             // lab15
             // 
