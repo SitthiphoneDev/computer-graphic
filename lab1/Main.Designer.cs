@@ -222,12 +222,14 @@
             // 
             // lab13
             // 
+            lab13.BackColor = SystemColors.HotTrack;
             lab13.Location = new Point(400, 190);
             lab13.Name = "lab13";
             lab13.Size = new Size(143, 51);
             lab13.TabIndex = 22;
             lab13.Text = "lab13";
-            lab13.UseVisualStyleBackColor = true;
+            lab13.UseVisualStyleBackColor = false;
+            lab13.Click += lab13_Click;
             // 
             // lab12
             // 

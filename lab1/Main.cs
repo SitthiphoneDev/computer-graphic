@@ -41,5 +41,11 @@ namespace computer_graphic
             homework2 lab2Form = new homework2();
             lab2Form.Show();
         }
+
+        private void lab13_Click(object sender, EventArgs e)
+        {
+            lab13 lab13Form = new lab13();
+            lab13Form.Show();
+        }
     }
 }
